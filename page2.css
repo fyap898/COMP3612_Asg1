@@ -1,0 +1,255 @@
+@import url('styles/variables-palette-7.css');
+
+#bg_box{
+    background-color: var(--color-neutral-100);
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#search_title{
+    background-color: var(--color-primary-1-800);
+    text-align: center;
+    padding: 0.4em;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+
+#title_word{
+    font-size: 24px;
+    font-weight: 500;
+    background-color: var(--color-primary-1-800);
+    color: var(--color-primary-1-100);
+}
+
+#search_box{
+
+    background-color: var(--color-neutral-200);
+    padding: 0.8em;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+#search{
+    width: 300px;
+    height: 2.3em;
+}
+
+#radio_btn{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+#landscape{
+    padding-right: 25px;
+}
+
+#menu_box{
+    display: inline-block;
+    margin-right: 100px;
+}
+
+#menu{
+    padding: 0.4em;
+    
+}
+
+#content{
+
+    background-color: var(--color-neutral-200);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+
+}
+
+#painting{
+    margin-left: 20px;
+    margin-right: 35px;
+    background-color: var(--color-primary-1-600);
+    text-align: center;
+    padding: 0.4em;
+}
+
+#painting_word{
+    color: var(--color-neutral-100);
+}
+
+#type_row{
+    margin-left: 20px;
+    margin-right: 35px;
+    background-color: var(--color-primary-1-100);
+
+}
+
+.type{
+    display: inline-block;   
+    text-align: center;
+
+}
+
+#title{
+    width: 600px;
+    
+}
+
+#artist{
+    width: 180px;
+    text-align: left;
+}
+
+#year{
+    width: 60px;
+    text-align: left;
+
+}
+
+#genre{
+    width: 100px;
+    text-align: left;
+
+}
+
+#actions{
+    width: 120px;
+    text-align: left;
+
+}
+
+.group{
+    margin-inline-start: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000000;
+    margin-inline-end: 45px;
+    
+}
+
+.sel_box{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.pic_box{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.pic{
+    width: 125px;
+    height: 125px;
+}
+
+.title_box{
+    display: inline-block;
+    vertical-align: middle;
+    width: 440px;
+
+}
+
+.title{
+    padding-inline-start: 15px;
+    font-style: italic;
+    width: 275px;
+}
+
+.art_box{
+    display: inline-block;
+    vertical-align: middle;
+    width: 180px;
+
+}
+
+.artist{
+    margin-inline-end: 50px;
+}
+
+.yr_box{
+    display: inline-block;
+    vertical-align: middle;
+    width: 60px;
+
+}
+.year{
+    margin-inline-end: 25px;
+}
+
+.gen_box{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.genre{
+    margin-inline-end: 35px;
+}
+
+.btn_box{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.edit_btn{
+    border-style: solid;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px; 
+}
+
+.arc_btn{
+    border-style: solid;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px; 
+}
+
+.del_btn{
+    border-style: solid;
+    border-radius: 3px;
+    width: 30px;
+    height: 30px; 
+}
+
+.btn_img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+#final_box{
+    background-color: var(--color-neutral-200);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#fin_act_box{
+    display: inline-block;
+    padding: 0.5em;
+}
+
+#final_action{
+    padding: 0.3em;
+    border-radius: 3px;
+}
+
+#submit_btn{
+    display: inline-block;
+    padding: 0.5em;
+}
+
+#SUBMIT{
+    background-color: var(--color-primary-1-600);
+    border-style: none;
+    border-radius: 3px;
+    padding: 0.5em;
+    color: var(--color-neutral-100);
+}

@@ -1,0 +1,233 @@
+<!--
+    Author: Felix Yap
+    Course: COMP 3612-001
+    Date: Oct 7,2023
+    Instructor: Randy Connolly
+    Assignment: 1
+
+    CSS Stylesheet: page2.css
+    Variable Palette:
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Assignment #1</title>
+        <link rel="stylesheet" href="page2.css">
+        <link rel="stylesheet" href="styles/variables-palette-7.css">
+    </head>
+    <form action="http://www.randyconnolly.com/tests/process.php" method="post" name="submit">
+
+        <body>
+            <div id="bg_box">
+                <div id="search_title"><span id="title_word">Advanced Art Work Search</span></div>
+                <div id="search_box">
+                    <div><input type="search" value="Search" id="search" name="search">
+
+                        Subject: 
+                        <div id="radio_btn">
+                            <input type="radio" id="history" name="subject" value="History">
+                            <label for="history">History</label>
+
+                            <input type="radio" id="person" name="subject" value="Person">
+                            <label for="person">Person</label>
+
+                            <input type="radio" id="landscape" name="subject" value="Landscape">
+                            <label for="landscape">Landscape</label>
+                        </div>
+
+                        <div id="menu_box">
+                            <label for="filter"></label>
+                            <select id="menu" name="filter">
+                                <option>Select Genre</option>
+                                <option value="0">Neo-Classicism</option>
+                                <option value="1">Baroque</option>
+                                <option value="2">Renaissance</option>
+                                <option value="3">Realism</option>
+                            </select>
+                        </div>         
+                    </div>
+                </div>
+
+                <div id="content">
+                    <div id="painting"><span id="painting_word">Painting</span></div>
+                    <div id="type_row">
+                        <div class="type" id="title">Title</div>
+                        <div class="type" id="artist">Artist</div>
+                        <div class="type" id="year">Year</div>
+                        <div class="type" id="genre">Genre</div>
+                        <div class="type" id="actions">Actions</div>
+                    </div>
+
+                    <div>
+                        <div class="group">
+
+                            <div class="sel_box">
+                                <label for="index"></label>
+                                <input type="checkbox" name="index[]" value="0" class="checkbox">
+                            </div>
+
+                            <div class="pic_box">
+                                <img src="images/125010.jpg" class="pic">
+                            </div>
+
+                            <div class="title_box">
+                                <span class="title">Potrait of Alida Christina Assink</span>
+                            </div>
+
+                            <div class="art_box">
+                                <span class="artist">Kruseman, Jan</span>
+                            </div>
+
+                            <div class="yr_box">
+                                <span class="year">1833</span>
+                            </div>
+
+                            <div class="gen_box">
+                                <span class="genre">Realism</span>
+                            </div>
+
+                            <div class="btn_box">
+                                <span>
+                                    <button class="edit_btn" type="button"><img src="images/edit.png" class="btn_img"></button>
+                                    <button class="arc_btn" type="button"><img src="images/archive.png" class="btn_img"></button>
+                                    <button class="del_btn" type="button"><img src="images/delete.png" class="btn_img"></button>
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <div class="group">
+
+                            <div class="sel_box">
+                                <label for="index"></label>
+                                <input type="checkbox" name="index[]" value="1" class="checkbox">
+                            </div>
+
+                            <div class="pic_box">
+                                <img src="images/125020.jpg" class="pic">
+                            </div>
+
+                            <div class="title_box">
+                                <span class="title">Potrait of William II, King of Netherlands</span>
+                            </div>
+
+                            <div class="art_box">
+                                <span class="artist">Kruseman, Jan</span>
+                            </div>
+
+                            <div class="yr_box">
+                                <span class="year">1839</span>
+                            </div>
+
+                            <div class="gen_box">
+                                <span class="genre">Realism</span>
+                            </div>
+
+                            <div class="btn_box">
+                                <span>
+                                    <button class="edit_btn" type="button"><img src="images/edit.png" class="btn_img"></button>
+                                    <button class="arc_btn" type="button"><img src="images/archive.png" class="btn_img"></button>
+                                    <button class="del_btn" type="button"><img src="images/delete.png" class="btn_img"></button>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="group">
+
+                            <div class="sel_box">
+                                <label for="index"></label>
+                                <input type="checkbox" name="index[]" value="2" class="checkbox">
+                            </div>
+
+                            <div class="pic_box">
+                                <img src="images/130020.jpg" class="pic">
+                            </div>
+
+                            <div class="title_box">
+                                <span class="title">Three girls from the Amsterdam Orphanage</span>
+                            </div>
+
+                            <div class="art_box">
+                                <span class="artist">Schwartze, Therese</span>
+                            </div>
+
+                            <div class="yr_box">
+                                <span class="year">1885</span>
+                            </div>
+
+                            <div class="gen_box">
+                                <span class="genre">Realism</span>
+                            </div>
+
+                            <div class="btn_box">
+                                <span>
+                                    <button class="edit_btn" type="button"><img src="images/edit.png" class="btn_img"></button>
+                                    <button class="arc_btn" type="button"><img src="images/archive.png" class="btn_img"></button>
+                                    <button class="del_btn" type="button"><img src="images/delete.png" class="btn_img"></button>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="group">
+
+                            <div class="sel_box">
+                                <label for="index"></label>
+                                <input type="checkbox" name="index[]" value="3" class="checkbox">
+                            </div>
+
+                            <div class="pic_box">
+                                <img src="images/127010.jpg" class="pic">
+                            </div>
+
+                            <div class="title_box">
+                                <span class="title">The Windmill at Wijk bij Duurstede</span>
+                            </div>
+
+                            <div class="art_box">
+                                <span class="artist">Ruisdel, Jacob van</span>
+                            </div>
+
+                            <div class="yr_box">
+                                <span class="year">1670</span>
+                            </div>
+
+                            <div class="gen_box">
+                                <span class="genre">Dutch Golden Age</span>
+                            </div>
+
+                            <div class="btn_box">
+                                <span>
+                                    <button class="edit_btn" type="button"><img src="images/edit.png" class="btn_img"></button>
+                                    <button class="arc_btn" type="button"><img src="images/archive.png" class="btn_img"></button>
+                                    <button class="del_btn" type="button"><img src="images/delete.png" class="btn_img"></button>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="final_box">
+                    <div id="fin_act_box">
+                        <label for="final_action"></label>
+                        <select id="final_action" name="actions">
+                            <option value="0">Archive</option>
+                            <option value="1">Edit</option>
+                            <option value="2">Delete</option>
+                            <option value="3">Collection</option>
+                        </select>
+                    </div>
+                    <div id="submit_btn">
+                        <input type="submit" value="Apply to All" id="SUBMIT">
+                    </div>
+                </div>
+                    
+            </div>
+        </body>
+        
+    </form>
+
+</html>
+    

@@ -1,0 +1,148 @@
+html{
+    background-color: rgba(216, 221, 224, 0.35);
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.row1{
+    display: inline-block;
+    text-align: center;
+    width: 900px;
+    background-color: rgba(203, 204, 205, 0.35);
+    padding: 0.5em;
+    box-shadow: -5px -5px 3px 0px rgba(151, 155, 160, 0.35),
+                5px -5px 3px 0px rgba(151, 155, 160, 0.35),
+                -5px 5px 3px 0px rgba(151, 155, 160, 0.35),
+                5px 5px 3px 0px rgba(151, 155, 160, 0.35);
+}
+
+.row1_word{
+    font-weight: 400;
+    font-size: 36px;
+
+}
+
+.row{
+    display: inline-block;
+    width: 300px;
+}
+
+#table .row:first-child{
+    padding-right: 4.25px;
+}
+
+#table .row:last-child{
+    padding-left: 3.9px;
+}
+
+.row div {
+    padding: 0.5em;
+    text-align: center;
+}
+
+div.row div:first-child{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#table .row:first-child{
+    box-shadow: -5px 5px 3px 0px rgba(127, 131, 136, 0.35);
+
+}
+
+#table .row:nth-child(2){
+    background-color: #2f4f4f;
+    color: white;
+    box-shadow: 0px 5px 3px 0px rgba(127, 131, 136, 0.35);
+}
+
+#table .row:last-child{
+    box-shadow: 5px 5px 3px 0px rgba(127, 131, 136, 0.35);
+
+}
+
+#table .row:nth-child(2) div:nth-child(4),
+#table .row:nth-child(2) div:nth-child(6){
+    background-color: rgba(47, 59, 64, 0.35);
+}
+
+#table .row:first-child div:nth-child(odd),
+#table .row:last-child div:nth-child(odd){
+    background-color: white;
+}
+
+.row div:last-child{
+    padding-top: 2em;
+    padding-bottom: 1.2em;
+}
+
+span{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#green{
+    background-color: #5bb189;
+}
+
+#purple{
+    background-color: #4b0082;
+}
+
+#orange{
+    background-color: #ec632a;
+}
+
+.btn:hover{
+    background-color: #3a6ba5;
+    color: white;
+    width: 285px;
+    height: 40px;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.btn{
+    background-color: #437cbf;
+    color: white;
+    width: 285px;
+    height: 40px;
+    border-radius: 3px;
+    border-style: none;
+}
+
+.footer{
+    margin-top: 30px;
+    display: inline-block;
+    background-color: #2f4f4f;
+    padding-right: 6px;
+    width: 910px;
+}
+
+.footer_word{
+    margin: 1.5em;
+    color: white;
+}
+
+#par{
+    font-weight: 100;
+}
+
+.footer_list{
+    font-weight: 500;
+    list-style-type: none;
+}
+
+.footer_list li{
+
+    background-image: url('images/checkmark.svg');
+    background-size: 24px;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position: 10px left;
+}
+
+.footer_list a{
+    font-style: italic;
+    color: #6295d0;
+}
